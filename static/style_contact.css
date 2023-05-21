@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Ysabeau&display=swap');
+
+body {
+    background-image: linear-gradient(to right, blue, purple, #0b4191, violet);
+}
+
+h2 {
+    /* color: black; */
+    font-family: cursive, 'Ysabeau', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 31px;
+    height: 74vh;
+}
+
+.myinput {
+    display: flex;
+    width: 565px;
+    padding: 7px;
+    margin: 5px auto;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 17px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    /* font-family: 'Montserrat', sans-serif; */
+    width: 100px;
+    padding: 6px;
+    margin-top: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #4e4c4c;
+    box-shadow: 2px 2px 6px black;
+}
+
+.btn:hover {
+    scale: 0.99;
+    cursor: pointer;
+    background-color: #c3c2c2;
+    /* box-shadow: 1px 1px 4px black; */
+}

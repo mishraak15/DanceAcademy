@@ -1,0 +1,37 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+
+block style     
+    style 
+            include ../static/style.css
+
+
+block content 
+        section#intro 
+            | Welcome To Ekta's Dance Academy 
+            br
+            | Feel The 
+            span Dance....
+
+        section#mission 
+            h2 Our Mission
+            div#card
+                div.block      
+                    h3 Hip-hop 
+                    p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, impedit laborum, sapiente officia, voluptatum reprehenderit porro nemo sed at commodi libero natus sint ipsum molestias. Amet sequi ab quasi, impedit minima porro? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti aliquam sapiente quasi, odit id earum?
+                div.block      
+                    h3 Cultural
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. In natus soluta dolores modi nobis et illo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab mollitia placeat sapiente eaque ducimus possimus ex reprehenderit pariatur quo.
+                div.block   
+                    h3 Party
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, optio iure ipsa consequatur libero vel. Ut quae ea amet sapiente eius suscipit explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod possimus, repellendus rem necessitatibus error dolorum eos! Est rem molestiae ipsam doloremque ab?
+        section#sponsers 
+            h2 Our Sponsers
+            div.spons_box
+                img(src="../static/lg_logo_PNG4.png", alt="" class="spons_img")
+                img(src="../static/microsoft_PNG7.png", alt="" class="spons_img")
+                img(src="../static/Sony_logo_PNG10.png", alt="" class="spons_img")
+                img(src="../static/Samsung_logo_PNG1.png", alt="" class="spons_img")

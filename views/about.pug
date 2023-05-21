@@ -1,0 +1,14 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+
+block style     
+    style 
+        include ../static/style.css
+        include ../static/style_about.css
+
+block content 
+    img(src="../static/me_montu_balloon.jpg", alt="" class="montu")
+    h1 HAPPY BIRTHDAY MONTU...

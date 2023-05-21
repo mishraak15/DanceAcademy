@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(168, 3, 168);
+}
+
+h1 {
+    color: lightpink;
+    font-size: 180px;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px 20px;
+}
+
+.montu {
+    display: block;
+    width: 377px;
+    margin: 30px auto;
+}
